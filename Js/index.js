@@ -1,6 +1,7 @@
+// declaring and initializing variables
+
 let homeScore = 0;
 let guestScore = 0;
-
 let homeScoreBoard = document.getElementsByClassName("score-board")[0];
 let guestScoreBoard = document.getElementsByClassName("score-board")[1];
 
@@ -35,3 +36,11 @@ function incrementButton6() {
     guestScore += 3
     guestScoreBoard.textContent = guestScore
 }
+
+function reset() {
+    homeScore = 0;
+    guestScore = 0;
+    homeScoreBoard.textContent = homeScore;
+    guestScoreBoard.textContent = guestScore;
+}
+

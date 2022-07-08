@@ -11,6 +11,8 @@ body {
     text-align: center;
     background: #4C1D95;
     padding: 1rem;
+    height: 100vh;
+    min-height: 35rem;
 }
 
 .flex-wrapper {
@@ -18,9 +20,9 @@ body {
     justify-content: center;
     align-items: center;
     gap: 3rem;
-    height: 100vh;
-    min-height: 35rem;
     flex-wrap: wrap;
+    margin: 5rem;
+    margin-top: 3rem;
 }
 
 .flex-items {
@@ -67,5 +69,23 @@ body {
     align-items: center;
     color: #9AABD8;
     font-family: cursed;
+    cursor: pointer;
+}
+
+#reset-btn {
+    background-color: rgb(255, 81, 0);
+    border: none;
+    border-radius: 10px;
+    height: 50px;
+    width: 150px;
+    font-size: 1rem;
+    color: hsl(180, 17%, 98%);
+    font-weight: bold;
+    margin-bottom: 3rem;
+    transition: background-color .5s;
+}
+
+#reset-btn:hover {
+    background-color: #F94F6D;
     cursor: pointer;
 }
