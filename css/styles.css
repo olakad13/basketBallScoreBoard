@@ -1,0 +1,71 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+@font-face {
+    font-family: cursed;
+    src: url(../Cursed_Timer_ULiL/CursedTimerULiL.ttf);
+}
+
+body {
+    text-align: center;
+    background: #4C1D95;
+    padding: 1rem;
+}
+
+.flex-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    height: 100vh;
+    min-height: 35rem;
+    flex-wrap: wrap;
+}
+
+.flex-items {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+.header {
+    color: #EEEEEE;
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 700;
+}
+.score-board {
+    width: 155px;
+    height: 120px;
+    background: #080001;
+    border-radius: 5px;
+    font-size: 80px;
+    color: #F94F6D;
+    font-family: cursed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.increament-number-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+.increment {
+    width: 45px;
+    height: 45px;
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #9AABD8;
+    font-family: cursed;
+    cursor: pointer;
+}
